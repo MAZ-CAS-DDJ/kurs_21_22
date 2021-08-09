@@ -9,7 +9,9 @@
 
 ## 01 Statistics
 
-[Introduction to Statistics](https://github.com/MAZ-CAS-DDJ/kurs_20_21/blob/master/00%20weitere%C2%A0Dokumente/reading/Online_Statistics_Education.pdf) (schweres PDF, 100MB). Kapitel 1, beziehungsweise die Introduction bis Seite 64. Dieses Kapitel dient als Refresh für alle, die sich schon lange nicht mehr mit den Kernkonzepten der Statistik auseinandergesetzt haben; oder die das vielleicht nie getan haben.
+[Introduction to Statistics](https://drive.google.com/file/d/1u5ocGTXIf3RYTJVUT6kuawKRRA__jEF5/view?usp=sharing) (schweres PDF, 100MB). Kapitel 1, beziehungsweise die Introduction bis Seite 64. Dieses Kapitel dient als Refresh für alle, die sich schon lange nicht mehr mit den Kernkonzepten der Statistik auseinandergesetzt haben; oder die das vielleicht nie getan haben.
+
+https://github.com/MAZ-CAS-DDJ/kurs_20_21/blob/master/00%20weitere%C2%A0Dokumente/reading/h00%20weitere%C2%A0Dokumente/reading/Online_Statistics_Education.pdf
 
 
 ## 02 HTML
