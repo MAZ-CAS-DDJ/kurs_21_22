@@ -12,7 +12,7 @@
 ## 01 Themen finden und datenjournalistische Recherchen planen
 **06. September 2021**
 
-[**Zur Präsentation**](https://docs.google.com/presentation/d/1WBSMHrfiMLKE65JAv-VKO8sMlI_OJx40v5-htSHU5Jo/edit#slide=id.p)
+[**Zur Präsentation**](https://docs.google.com/presentation/d/18mZEv6dQ1_OvKcWnfLT8McFx0I-8GdZCN-BHaH_YPXY/edit#slide=id.p)
 
 0. [Begrüssung](01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/00%20Start.md) (ds, bsk), 30'
 1. [Daten-getriebene Recherchen, die die Welt bewegt haben](01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/01%20Stories.md) (ds, bsk), 20'
@@ -29,7 +29,6 @@
 
 ## 05 Von der Cloud zur lokalen Installation
 **09. September 2021**
-
 1. [Anaconda-Setup](05%20Local%20Setup%20/01%20install%20anaconda.md)
 2. [Jupyter Notebook](05%20Local%20Setup%20/02%20Jupyter.md) (Unterschiede und die Ähnlichkeiten zu Google Colab)
 3. [Bedienungsprozess des eigenen Computers](05%20Local%20Setup%20/03%20Work-Flow.md)
@@ -40,7 +39,6 @@
 
 ## 06 Python: APIs und Scraping I
 **13. September 2021**
-
 1. [```Requests & APIs```](06%20APIs%2C%20Scraping%20I/01%20Requests.ipynb) (bsk), 90' + 30'
 - [Übung1](06%20APIs%2C%20Scraping%20I/%C3%9Cbung1.ipynb)
 2. [HTML Code](06%20APIs%2C%20Scraping%20I/02%20HTML%20Code.htm) (bsk), 60'
@@ -51,7 +49,6 @@
 
 ## 07 Python: APIs und Scraping II
 **14. September 2021**
-
 1. [APIs und Authentifizierung (Google)](07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
 2. [Noch mehr ```BeautifulSoup```](07%C2%A0APIs%2C%20Scraping%20II/02%20Noch%20mehr%20BeautifulSoup.ipynb)(bsk), 90' + 90'
 - [Übung1](06%20APIs%2C%20Scraping%20I/%C3%9Cbung4.ipynb)
@@ -103,23 +100,23 @@
 1. Homework: [Beautiful Charts](11%20Pandas%20Teil%204/Beautiful%20Charts.ipynb) *([Lösung](11%20Pandas%20Teil%204/Beautiful%20Charts%20L.ipynb))* (ssc), 30'
 
 
-## 13 - 14 PDF auslesen und erste Textanalyse
+## 13 - 14 Arbeit mit Geodaten
 **28. und 29. Oktober 2021**
-
-## 15 - 16 Textanalyse & Ausblick Machine Learning
-**18. und 19. November 2021**
-
-## 17 - 18 Debugging, Server aufsetzen und Netzwerkanalyse
-**06. und 07. Dezember 2021**
-
-## 19 Arbeiten mit Geodaten
-**06. Januar 2022**
 1. Übung: [Aufwärmübung](19%20Geopandas/Aufwärmübung.ipynb) *([Lösung](19%20Geopandas/Aufwärmübung%20L.ipynb))* (ssc), 60'
 1. Übung: [Geopandas Intro](19%20Geopandas/Geopandas%20Intro.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Intro%20L.ipynb))* (ssc), 60'
 1. Hilfsmaterialien: [Cheatsheet etc.](00%20weitere%20Dokumente/hilfsmaterial/) (ssc), 5'
 1. Unterricht: [Geodatenhandling 1](19%20Geopandas/Geodatenhandling%201.ipynb) (ssc), 45'
 1. Übung: [Geodatenhandling 2](19%20Geopandas/Geodatenhandling%202.ipynb) *([Lösung](19%20Geopandas/Geodatenhandling%20L2%20L.ipynb))* (ssc), 45'
 1. Übung: [Geopandas Training](19%20Geopandas/Geopandas%20Training.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Training%20L.ipynb))* (ssc), 60'
+
+## 15 - 16 Textanalyse & Ausblick Machine Learning
+**18. und 19. November 2021**
+
+## 17 - 18 Netzwerkanalyse
+**06. und 07. Dezember 2021**
+
+## 19 Server und Projekte
+**06. Januar 2022**
 
 ## 20 Abschlusstag
 **16. März 2022**
