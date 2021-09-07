@@ -1,4 +1,4 @@
-# [MAZ CAS Datenjournalismus 20-21](https://www.maz.ch/file/zusatzinfo/48975/cas_datenjournalismus_21-22.pdf)
+# [MAZ CAS Datenjournalismus 21-22](https://www.maz.ch/file/zusatzinfo/48975/cas_datenjournalismus_21-22.pdf)
 **06.09.2020 bis 16.03.2021**
 
 ## 00 Ressourcen und Dokumenten-Archiv
