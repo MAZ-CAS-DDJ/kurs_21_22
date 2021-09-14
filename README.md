@@ -66,7 +66,7 @@
 
 ## 09 Pandas Einführung, Teil 2
 **16. September 2021**
-1. Einstieg: Ein DDJ-Beispiel: [Pick your own Brexit](https://www.bloomberg.com/graphics/2018-pick-your-own-brexit/) (ssc), 10'
+1. Wiedereinstieg:  [DDJ-Beispiele](00%20weitere%C2%A0Dokumente/beispiele/DDJ-Beispiele.md) anschauen
 1. Unterricht: [Dataframes handling - Peter, Paul und Maria](09%20Pandas%20Teil%202/Dataframes%20Handling.ipynb) (ssc), 45'
 1. Übung: [Daten klassifizieren - SNF-Grants](09%20Pandas%20Teil%202/Daten%20klassifizieren.ipynb) *([Lösung](09%20Pandas%20Teil%202/Daten%20klassifizieren%20L.ipynb))* (ssc), 90'
 1. Wiedereinstieg:  [DDJ-Beispiele](00%20weitere%C2%A0Dokumente/beispiele/DDJ-Beispiele.md) anschauen
