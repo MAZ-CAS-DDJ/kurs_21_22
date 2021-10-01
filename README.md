@@ -69,7 +69,6 @@
 1. Wiedereinstieg:  [DDJ-Beispiele](00%20weitere%C2%A0Dokumente/beispiele/DDJ-Beispiele.md) anschauen
 1. Unterricht: [Dataframes handling - Peter, Paul und Maria](09%20Pandas%20Teil%202/Dataframes%20Handling.ipynb) (ssc), 45'
 1. Übung: [Daten klassifizieren - SNF-Grants](09%20Pandas%20Teil%202/Daten%20klassifizieren.ipynb) *([Lösung](09%20Pandas%20Teil%202/Daten%20klassifizieren%20L.ipynb))* (ssc), 90'
-1. Wiedereinstieg:  Diskussion Datenjournalismus im Redaktionsalltag
 1. Gruppenübung: [Plotting - Klimadaten](09%20Pandas%20Teil%202/Exploring%20und%20Plotting.ipynb) *([Lösung](09%20Pandas%20Teil%202/Exploring%20und%20Plotting.ipynb%20L.ipynb))* (ssc), 30'
 1. Übung: [Daten kombinieren - Wahlergebnisse](09%20Pandas%20Teil%202/Daten%20kombinieren.ipynb) *([Lösung](09%20Pandas%20Teil%202/Daten%20kombinieren%20L.ipynb))* (ssc), 60'
 1. Homework: [Explorieren, Kombinieren - Zürichs Einwohner](09%20Pandas%20Teil%202/Homework%202.ipynb) *([Lösung](09%20Pandas%20Teil%202/09%20Pandas%20Teil%202/Homework%202%20L.ipynb))*
@@ -84,10 +83,11 @@
 
 ## 11 Pandas Vertiefung, Teil 1
 **04. Oktober 2021**
-1. Wiedereinstieg: [DDJ-Beispiele](00%20weitere%C2%A0Dokumente/beispiele/DDJ-Beispiele.md) anschauen
+1. Wiedereinstieg: Data Wrangling (20')
 1. Unterricht: [Date+Time Basics](11%20Pandas%20Teil%203/Date+Time%20Basics.ipynb) *([Lösung](11%20Pandas%20Teil%203/Date+Time%20Basics%20L.ipynb))* (ssc), 60'
 1. Unterricht: [Time Series - SMI-Index](11%20Pandas%20Teil%203/Time%20Series.ipynb) *([Lösung](11%20Pandas%20Teil%203/Time%20Series%20L.ipynb))* (ssc), 90'
 1. Gruppenübung: [Time Series Exploring - Covid](11%20Pandas%20Teil%203/Time%10Series%20Exploring.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Time%10Series%20Exploring%20L.ipynb))* (ssc), 60'
+1. Wiedereinstieg: Datenjournalismus im Redaktionsalltag
 1. Unterricht: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) *([Lösung](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen%20L.ipynb))* (ssc), 60'
 1. Homework: [Exploring und Plotting II - Börsenkurse](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202%20L.ipynb))* (ssc), 60'
 1. Homework: [Viele Dateien - Krypto-Coins](11%20Pandas%20Teil%203/Viele%20Dateien.ipynb) *([Lösung](11%20Pandas%20Teil%203/Viele%20Dateien%20L.ipynb))* (ssc), 60'
