@@ -83,12 +83,12 @@
 
 ## 11 Pandas Vertiefung, Teil 1
 **04. Oktober 2021**
-1. Wiedereinstieg: Data Wrangling (20')
+1. Einstieg: [Data Wrangling](11%20Pandas%20Teil%203/Data%20Wrangling.pptx) (ssc), 20'
 1. Unterricht: [Date+Time Basics](11%20Pandas%20Teil%203/Date+Time%20Basics.ipynb) *([Lösung](11%20Pandas%20Teil%203/Date+Time%20Basics%20L.ipynb))* (ssc), 60'
 1. Unterricht: [Time Series - SMI-Index](11%20Pandas%20Teil%203/Time%20Series.ipynb) *([Lösung](11%20Pandas%20Teil%203/Time%20Series%20L.ipynb))* (ssc), 90'
+1. Diskussion: [Datenjournalismus im Redaktionsalltag](11%20Pandas%20Teil%203/Gruppendiskussion.pptx) (ssc), 20'
 1. Gruppenübung: [Time Series Exploring - Covid](11%20Pandas%20Teil%203/Time%10Series%20Exploring.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Time%10Series%20Exploring%20L.ipynb))* (ssc), 60'
-1. Wiedereinstieg: Datenjournalismus im Redaktionsalltag
-1. Unterricht: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) *([Lösung](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen%20L.ipynb))* (ssc), 60'
+1. Unterricht: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) (ssc), 60'
 1. Homework: [Exploring und Plotting II - Börsenkurse](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202%20L.ipynb))* (ssc), 60'
 1. Homework: [Viele Dateien - Krypto-Coins](11%20Pandas%20Teil%203/Viele%20Dateien.ipynb) *([Lösung](11%20Pandas%20Teil%203/Viele%20Dateien%20L.ipynb))* (ssc), 60'
 
