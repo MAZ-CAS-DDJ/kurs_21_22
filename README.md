@@ -86,19 +86,22 @@
 1. Einstieg: [Data Wrangling](11%20Pandas%20Teil%203/Data%20Wrangling.pptx) (ssc), 20'
 1. Unterricht: [Date+Time Basics](11%20Pandas%20Teil%203/Date+Time%20Basics.ipynb) *([Lösung](11%20Pandas%20Teil%203/Date+Time%20Basics%20L.ipynb))* (ssc), 60'
 1. Unterricht: [Time Series - SMI-Index](11%20Pandas%20Teil%203/Time%20Series.ipynb) *([Lösung](11%20Pandas%20Teil%203/Time%20Series%20L.ipynb))* (ssc), 90'
-1. Diskussion: [Datenjournalismus im Redaktionsalltag](11%20Pandas%20Teil%203/Gruppendiskussion.pptx) (ssc), 20'
 1. Gruppenübung: [Time Series Exploring - Covid](11%20Pandas%20Teil%203/Time%10Series%20Exploring.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Time%10Series%20Exploring%20L.ipynb))* (ssc), 60'
-1. Unterricht: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) (ssc), 60'
-1. Homework: [Exploring und Plotting II - Börsenkurse](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202%20L.ipynb))* (ssc), 60'
+1. Unterricht: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) (ssc), 45'
 1. Homework: [Viele Dateien - Krypto-Coins](11%20Pandas%20Teil%203/Viele%20Dateien.ipynb) *([Lösung](11%20Pandas%20Teil%203/Viele%20Dateien%20L.ipynb))* (ssc), 60'
+1. Homework: [Exploring und Plotting II - Börsenkurse](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202.ipnyb) *([Lösung](11%20Pandas%20Teil%203/Exploring%20und%20Plotting%202%20L.ipynb))* (ssc), 60'
+
 
 ## 12 Pandas Vertiefung, Teil 2
 **05. Oktober 2021**
 1. Übung: [Regex in Python - Songtexts](12%20Pandas%20Teil%204/Regex%20in%20Python.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Python%20L.ipynb))* (ssc), 90'
-1. Übung: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipnyb))* (ssc), 60'
-1. Homework: [Regex - Senators](12%20Pandas%20Teil%204/Homework%203.ipynb) *([Lösung](12%20Pandas%20Teil%204/Homework%203%20L.ipynb))*
-1. Homework: [Beautiful Charts](11%20Pandas%20Teil%204/Beautiful%20Charts.ipynb) *([Lösung](11%20Pandas%20Teil%204/Beautiful%20Charts%20L.ipynb))* (ssc), 30'
-
+1. Übung: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipnyb))* (ssc), 90'
+1. Diskussion: [Datenjournalismus im Redaktionsalltag](11%20Pandas%20Teil%203/Gruppendiskussion.pptx) (ssc), 20'
+1. Übung: [Hack like a hacker](12%20Pandas%20Teil%204/Keyboard%20Shortcuts.ipynb) (ssc), 45'
+1. Unterricht: [Color Coding - Countries](12%20Pandas%20Teil%204/Color%20Coding.ipynb) (ssc), 45'
+1. Selbststudium: [Beautiful Charts](11%20Pandas%20Teil%204/Beautiful%20Charts.ipynb) *([Lösung](11%20Pandas%20Teil%204/Beautiful%20Charts%20L.ipynb))* (ssc), 30'
+1. Selbststudium: [Beautiful Tables](11%20Pandas%20Teil%204/Beautiful%20Tables.ipynb)
+1. Homework: [Regex - Senators](12%20Pandas%20Teil%204/Homework%20Regex.ipynb) *([Lösung](12%20Pandas%20Teil%204/Homework%20Regex%20L.ipynb))*
 
 ## 13 - 14 Arbeit mit Geodaten
 **28. und 29. Oktober 2021**
