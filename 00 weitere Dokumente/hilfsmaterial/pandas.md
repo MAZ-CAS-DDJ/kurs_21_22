@@ -34,7 +34,7 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 
 ### Data in
 
-**`df = pd.read_csv("file.csv")`**                  *- Create a DF from a CSV file* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html))
+**`df = pd.read_csv("file.csv")`**                  *- Create a DF from a CSV file  or URL* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html))
 -    `nrows=59`                                     *- to only get a number of rows*
 -    `na_values=["string1", "string2", ...]`        *- to specify values to ignore*
 -    `dtype=str`                                    *- treat everything as strings*
@@ -55,6 +55,7 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 
 **`df.to_csv("file.csv")`**                         *- save a DF into the specified csv* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_csv.html))
 -    `index=False`                                  *- don't save the index column*
+-    `float_format='.2f'`                            *- Limit decimal places*
 
 **`df.to_dict()`**                                  *- save dataframe as dictionary* ([reference](https://pandas.pydata.org/pandas-docs/version/0.22/generated/pandas.DataFrame.to_dict.html))
 -    `orient="records"/"list"/...`                  *- way of constructing the dictionary*
@@ -68,11 +69,9 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 
 ### NaN
 
-**`NaN`**                                           *- Placeholder for missing data*
-
 **`np.nan`**                                        *- code for nan (need to import numpy as np)*
 
-## SELECTING STUFF
+## DESCRIPTIVE STATS
 
 ### Select whole table
 
@@ -125,6 +124,10 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 **`.min()`**                                        *- minimum* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.min.html))
 
 **`.mean()`**                                       *- mean* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.mean.html))
+
+**`.median()`**                                     *- median* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.median.html))
+
+**`.quantile(q)`**                                   *- quantile. can be a single value (0.4) or list of values* ([reference](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.quantile.html))
 
 **`.std()`**                                        *- standard deviation* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.std.html))
 
@@ -218,6 +221,8 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 **`df.fillna(value)`**                              *- replace NaN's with other value* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.fillna.html))
 -    `inplace=true`                                 *- make the changes on the object, not a copy*
 
+**`df.ffill()`**                                    *- Forward fill empty fields* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ffill.html))
+
 ### Deal with duplicates
 
 **`df.drop_duplicates()`**                          *- gets rid of duplicate vlalues* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop_duplicates.html))
@@ -278,7 +283,13 @@ Many of these functions can be used on whole dataframes as well.
 **`df.rolling(n, on="column")`**                    *- returns the rolling average of "column" as a DF* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html))
 -    `min_periods=n`                                *- set number of periods to average over*
 
+**`df.cumsum()**                                    *- Cumulative sum downwards (or sideways with `axis=1`)* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.cumsum.html))
+
+**`df.cumprod()**                                    *- Cumulative product downwards (or sideways with `axis=1`)* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.cumprod.html))
+
 **`df['field1"].pct_change()`**                     *- calculates %-change between period t and t+1 (on series or df)* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.pct_change.html))
+- `periods=n`                                       *- can be used for YoY or similar*
+- `freq='A'`                                        *- if you have time data. Could be 'W', 'M', etc.*
 
 **`df['field1"].agg(['func1', 'func2'])`**          *- applies aggregate function like 'mean' etc. to column and spits out a dataframe* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.agg.html))
 
@@ -294,6 +305,11 @@ Many of these functions can be used on whole dataframes as well.
 **`df["field1"].str.extract(regex)`**                   *- extracts a regex from the field* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.extract.html))
 -    `expand=True`                                  *- force return of a dataframe instead of a series*
 -    `.dropna()`                                    *- to drop the NA values*
+
+**`df['field1'].map(function)`**                    *- for each element in the series, apply the specified function* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.Series.map.html))
+
+**`df['field1'].apply(function)`**                    *- same but more complex, can handle additional args and convert dtypes. can also be used on entire DF* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.Series.apply.html#pandas.Series.apply))
+
 
 ### Assign field values dynamically
 
@@ -311,7 +327,9 @@ Many of these functions can be used on whole dataframes as well.
 
 **`.strftime('format')`**                          *- Turn a datetime into a formatted string*
 
-**`df['field1'].apply(lambda (t): t.strftime('format'))`** *- to transform a datetime col into a string* ([reference](https://docs.python.org/3/library/time.html#time.strftime))
+**`df['field1'].dt.strftime('format')`** *- to transform a datetime col into a string* ([reference](https://docs.python.org/3/library/time.html#time.strftime))
+
+**`df.index.strftime(date_format='format')`** *- to transform a datetime index col into a a string*
 
 ### Extract datetime info
 
@@ -344,11 +362,57 @@ Many of these functions can be used on whole dataframes as well.
 
 **`df.rolling(n)`**                                 *- aggregate with n neighbors. chain with .mean(), .sum() or other* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html))
 
+**`df.diff()`**                                     *- Difference to previous element* ([reference](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.diff.html))
+-   `periods=n`                                     *- Default is 1 period*
+
 ### Other date stuff
 
 **`datetime.today()`**                              *- Today's date, as a datetime object*
 
-## DISPLAY OPTIONS FOR JUPYTER NOTEBOOKS
+## DEAL WITH CATEGORIES
+
+`**df['field1'].astype('category')**`               *- Set a column to be of categorical type*
+
+`**df['field1'].cat.set_categories(list)**`         *- Set the sorting order for the categories. list => ['cat1', 'cat2', ...]. Needs to be `inplace=True`*
+
+## STYLES
+
+### Number Formats
+
+`**df.style.format(format)**`                       *- Define number format for whole DF (eg `'{:.f1}'`)*
+
+`**df.style.format(dict)**`                         *- Define number format dict-wise for each column*
+
+### Highlight
+
+`**df.style.highlight_null()**`                     *- Highlight nan-Values ([reference](https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.highlight_null.html))*
+-   `null_color='color'`
+
+`**df.style.highlight_min()**`                     *- Highlight Mins of col(s) ([reference](https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.highlight_min.html))*
+`**df.style.highlight_min()**`                     *- Highlight Maxes of col(s) ([reference](https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.highlight_max.html))*
+
+### Table-Charts
+
+`**df.style.background_gradient()**`                *- Generate a Heatmap ([reference](https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.background_gradient.html))*
+-   `cmap='colormap'`                               *- which colormap to use*
+-   `vmin=n`                                        *- min of the norm*
+-   `vmax=m`                                        *- max of the norm*
+-   `subset=['col1', 'col2']`                       *- on which columns*
+
+`**df.style.bar()**`                                *- Generate a mini inline barchart ([reference](https://pandas.pydata.org/docs/reference/api/pandas.io.formats.style.Styler.bar.html))*
+-   `color='color'`                                 *- which color to use*
+-   `subset=['col1', 'col2']`                       *- on which columns*
+
+### Reusing styles
+
+`**my_style = df.style.export()**`                  *- export style*
+
+`**df.use(my_style)**`                              *- apply exported style*
+
+## GLOBAL OPTIONS FOR JUPYTER NOTEBOOKS
+
+### Display Options
+
 **`pd.set_option("optionName", value)`**            *- Change the behavior of displayed content in notebooks* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html))
 -    `"display.max_rows"`                           *- the number of rows of a DataFrame*
 -    `"display.max_columns"`                        *- The number of columns of a DataFrame*
@@ -357,3 +421,7 @@ Many of these functions can be used on whole dataframes as well.
 - etc.
 
 **`pd.options.display.max_rows`**                   *- to display the current settings*
+
+### Locale
+
+**`locale.setlocale(locale.LC_TIME, ‘de_CH.UTF-8’)` *- to handle "Mai" instead of "may" (need to `import locale`)*
