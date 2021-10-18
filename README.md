@@ -103,14 +103,20 @@
 1. Selbststudium: [Pandas und Funktionen](12%20Pandas%20Teil%204/Pandas%20und%20Funktionen.ipynb) *([mit Output](12%20Pandas%20Teil%204/Pandas%20und%20Funktionen%20L.ipynb))*
 1. Homework: [Regex - Senators](12%20Pandas%20Teil%204/Homework%20Regex.ipynb) *([Lösung](12%20Pandas%20Teil%204/Homework%20Regex%20L.ipynb))*
 
-## 13 - 14 Arbeit mit Geodaten
-**28. und 29. Oktober 2021**
-1. Übung: [Aufwärmübung](19%20Geopandas/Aufwärmübung.ipynb) *([Lösung](19%20Geopandas/Aufwärmübung%20L.ipynb))* (ssc), 60'
-1. Übung: [Geopandas Intro](19%20Geopandas/Geopandas%20Intro.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Intro%20L.ipynb))* (ssc), 60'
-1. Hilfsmaterialien: [Cheatsheet etc.](00%20weitere%20Dokumente/hilfsmaterial/) (ssc), 5'
-1. Unterricht: [Geodatenhandling 1](19%20Geopandas/Geodatenhandling%201.ipynb) (ssc), 45'
-1. Übung: [Geodatenhandling 2](19%20Geopandas/Geodatenhandling%202.ipynb) *([Lösung](19%20Geopandas/Geodatenhandling%20L2%20L.ipynb))* (ssc), 45'
-1. Übung: [Geopandas Training](19%20Geopandas/Geopandas%20Training.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Training%20L.ipynb))* (ssc), 60'
+## 13 Arbeit mit Geodaten, Teil 1
+**28. Oktober 2021**
+1. Übung: [Aufwärmübung – Shapes](19%20Geopandas/Aufwärmübung.ipynb) *([Lösung](19%20Geopandas/Aufwärmübung%20L.ipynb))* (ssc), 60'
+1. Übung: [Geopandas Intro – Seilbahnen](19%20Geopandas/Geopandas%20Intro.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Intro%20L.ipynb))* (ssc), 60'
+1. Materialien: [Cheatsheet, Shapefiles etc.](00%20weitere%20Dokumente/hilfsmaterial/) (ssc), 15'
+1. Unterricht: [Geodatenhandling 1 – Coop-Filialen](19%20Geopandas/Geodatenhandling%201.ipynb) (ssc), 45'
+1. Übung: [Geodatenhandling 2 – Chigaco Grocery Stores](19%20Geopandas/Geodatenhandling%202.ipynb) *([Lösung](19%20Geopandas/Geodatenhandling%20L2%20L.ipynb))* (ssc), 45'
+1. Übung: [Geopandas Training – Denkmalschutz, Coop-Filialen](19%20Geopandas/Geopandas%20Training.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Training%20L.ipynb))* (ssc), 60'
+
+## 13 Arbeit mit Geodaten, Teil 2
+**29. Oktober 2021**
+1. Geodaten-Quellen
+1. Osmnx
+1. Projekte
 
 ## 15 - 16 Textanalyse & Ausblick Machine Learning
 **18. und 19. November 2021**

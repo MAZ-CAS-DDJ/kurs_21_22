@@ -50,10 +50,32 @@ Sammlung von Hilfsmaterialien zu diversen Programmiersprachen und Python-Bibliot
 - [Using .format()](https://pyformat.info/)
 - [List of Fonts](http://jonathansoma.com/lede/data-studio/matplotlib/list-all-fonts-available-in-matplotlib-plus-samples/)
 
-## Geopandas
+## Geodaten
+
+### Coding with Geopandas
 - [Simons Cheat Sheet](geopandas.md) - Meine Notizen, mit Links
 - [Offizielle Dokumentation](http://geopandas.org/)
-- [Making Maps](http://geopandas.org/mapping.html)
+- daraus: [Tutorial](https://geopandas.org/getting_started/introduction.html)
+- daraus: [Making Maps](http://geopandas.org/mapping.html)
+
+### Projections
+- [EPSG-Katalog der Projektionen](https://epsg.io/)
+
+### Shapefile Resources
+- [BFS: Generalisierte Gemeindegrenzen](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/administrative-grenzen/generalisierte-gemeindegrenzen.html)
+- [Swisstopo Onlineshop](https://shop.swisstopo.admin.ch/de/products/swisstopo_products/free_geodata) => WIE KOMMT MAN HIER TATSÄCHLICH ZU DEN DATEN??
+- [ArcGIS Hub](https://hub.arcgis.com/search)
+- [Natural Earth Data](http://www.naturalearthdata.com/downloads)
+- [opendata.swiss Geographie](https://opendata.swiss/de/group/geography)
+
+### Little Tools
+- [GPS Koordinaten eines Punkts finden](https://www.gps-coordinates.net/)
+- [Schweizer Koordinaten finden] (https://tools.retorte.ch/map/?swissgrid=2616777,1157680)
+- [Create your own country Geojson](https://geojson-maps.ash.ms/)
+
+### Kantonale GIS-Browser
+- [ZH](http://maps.zh.ch/?topic=AVfarbigZH&amp;showtab=ogddownload), [BS](https://shop.geo.bs.ch/), 
+
 
 ## Regex
 - [Simons Cheat Sheet](regex.md) - Eine kleine Gliederung
