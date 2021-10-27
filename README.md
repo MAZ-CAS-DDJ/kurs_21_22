@@ -105,18 +105,18 @@
 
 ## 13 Arbeit mit Geodaten, Teil 1
 **28. Oktober 2021**
-1. Übung: [Aufwärmübung – Shapes](19%20Geopandas/Aufwärmübung.ipynb) *([Lösung](19%20Geopandas/Aufwärmübung%20L.ipynb))* (ssc), 60'
-1. Übung: [Geopandas Intro – Seilbahnen](19%20Geopandas/Geopandas%20Intro.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Intro%20L.ipynb))* (ssc), 60'
-1. Materialien: [Cheatsheet, Shapefiles etc.](00%20weitere%20Dokumente/hilfsmaterial/) (ssc), 15'
-1. Unterricht: [Geodatenhandling 1 – Coop-Filialen](19%20Geopandas/Geodatenhandling%201.ipynb) (ssc), 45'
-1. Übung: [Geodatenhandling 2 – Chigaco Grocery Stores](19%20Geopandas/Geodatenhandling%202.ipynb) *([Lösung](19%20Geopandas/Geodatenhandling%20L2%20L.ipynb))* (ssc), 45'
-1. Übung: [Geopandas Training – Denkmalschutz, Coop-Filialen](19%20Geopandas/Geopandas%20Training.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Training%20L.ipynb))* (ssc), 60'
+1. Übung: [Aufwärmübung – Shapes](13%20Geopandas%20Teil%201/Aufwärmübung.ipynb) *([Lösung](13%20Geopandas%20Teil%201/Aufwärmübung%20L.ipynb))* (ssc), 60'
+1. Übung: [Geopandas Intro – Seilbahnen](13%20Geopandas%20Teil%201/Geopandas%20Intro.ipynb) *([Lösung](13%20Geopandas%20Teil%201/Geopandas%20Intro%20L.ipynb))* (ssc), 60'
+1. Unterricht: [Geodatenhandling 1 – Coop-Filialen](13%20Geopandas%20Teil%201/Geodatenhandling%201.ipynb) (ssc), 45'
+1. Übung: [Geodatenhandling 2 – Chigaco Grocery Stores](13%20Geopandas%20Teil%201/Geodatenhandling%202.ipynb) *([Lösung](13%20Geopandas%20Teil%201/Geodatenhandling%20L2%20L.ipynb))* (ssc), 45'
+1. Homework: [Geopandas Training – Denkmalschutz, Coop-Filialen](19%20Geopandas/Geopandas%20Training.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Training%20L.ipynb))* (ssc), 60'
 
 ## 13 Arbeit mit Geodaten, Teil 2
 **29. Oktober 2021**
-1. Geodaten-Quellen
-1. Osmnx
-1. Projekte
+1. Materialien: [Cheatsheet, Shapefiles etc.](00%20weitere%20Dokumente/hilfsmaterial/geopandas.md) (ssc), 15'
+1. Übung: [Geodaten-Quellen und Formate](14%20Geopandas%20Teil%202/Geodata%20Quellen.ipynb) (ssc), 45'
+1. Unterricht: [Open Street Map](14%20Geopandas%20Teil%202/Open%20Street%20Map.ipynb) (ssc), 60'
+1. Nachmittag: Reserviert für Besprechung von Projekten => Was sind die Bedürfnisse?
 
 ## 15 - 16 Textanalyse & Ausblick Machine Learning
 **18. und 19. November 2021**
