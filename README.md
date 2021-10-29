@@ -116,6 +116,7 @@
 1. Materialien: [Cheatsheet, Shapefiles etc.](00%20weitere%20Dokumente/hilfsmaterial/geopandas.md) (ssc), 15'
 1. Übung: [Geodaten-Quellen und Formate](14%20Geopandas%20Teil%202/Geodata%20Quellen.ipynb) (ssc), 45'
 1. Unterricht: [Open Street Map](14%20Geopandas%20Teil%202/Open%20Street%20Map.ipynb) (ssc), 60'
+1. Unterricht: [Google Maps API](14%20Geopandas%20Teil%202/Google%20Maps.ipynb) (ssc), 30'
 1. Nachmittag: Reserviert für Besprechung von Projekten => Was sind die Bedürfnisse?
 
 ## 15 - 16 Textanalyse & Ausblick Machine Learning
