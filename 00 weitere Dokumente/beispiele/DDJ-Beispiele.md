@@ -34,6 +34,8 @@ Worthäufigkeiten, Sentiment-Analyse und weitere computerlinguistische Techniken
 Storytelling mit Daten: besondere Plots, ungewöhnliche Chartformen, etc.
 - **New York Times:** [How The Recession Reshaped The Economy](https://www.nytimes.com/interactive/2014/06/05/upshot/how-the-recession-reshaped-the-economy-in-255-charts.html) (2014)
 - **Financial Times:** [A visual history of women's tennis](https://ig.ft.com/sites/visual-history-of-womens-tennis/) (2016)
+- **Axios:** [Who Trump attacks the most on Twitter](https://www.axios.com/who-trump-attacks-the-most-on-twitter-1513305449-f084c32e-fcdf-43a3-8c55-2da84d45db34.html) (2017)
+- **New York Times:** [How to reduce shootings](https://www.nytimes.com/interactive/2017/11/06/opinion/how-to-reduce-shootings.html) (2017)
 - **Constantly Plotting:** [What's that sound again?](https://constantlyplotting.com/whats-that-sound-again/) (2018)
 - **New York Times:** [Extensive Data Shows Punishing Reach of Racism for Black Boys](https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html) (2018)
 - **New York Times:** [Medical Mystery: Something Happened to U.S. Health Spending After 1980](https://www.nytimes.com/2018/05/14/upshot/medical-mystery-health-spending-1980.html?smtyp=cur&smid=tw-nytimes) (2018)
@@ -59,10 +61,13 @@ Storytelling mit Daten: besondere Plots, ungewöhnliche Chartformen, etc.
 - **Washington Post:** [The U.S. death toll has reached 100,000](https://www.washingtonpost.com/graphics/2020/national/100000-deaths-american-coronavirus/?itid=hp_hp-bignews4_animated-map%3Ahomepage%2Fstory-ans) (2020)
 - **Bloomberg:** [Republicans Fall Short in Voting-Rights Crackdown While Adding Hassle at Polls](https://www.bloomberg.com/graphics/2021-voting-laws/?utm_medium=deeplink&sref=TyeWAPOj) (2021)
 - **Gregor Aisch:** [Six Decades of Carbon Dioxide Concentration in the Atmosphere](https://www.datawrapper.de/_/OHgEm/) (2021)
+- **Jim Vallandingham:** [Series Heat](https://vallandingham.me/seriesheat/?s=03#/?id=tt0460649) (2021)
 - **New York Times:** [Biden’s $4 Trillion Economic Plan, in One Chart](https://www.nytimes.com/2021/04/28/upshot/biden-families-plan-american-rescue-infrastructure.html) (2021)
+- **Reuters:** [500'000 Lives Lost](https://graphics.reuters.com/HEALTH-CORONAVIRUS/USA-CASUALTIES-CHRONOLOGY/xklpyomnrpg/index.html) (2021)
 - **SRF:** [So entwickeln sich die Fallzahlen in der Schweiz](https://www.srf.ch/news/schweiz/coronavirus-so-entwickeln-sich-die-fallzahlen-in-der-schweiz) (2021)
 - **SRF:** [Wenn der Frühling immer früher komt](https://www.srf.ch/news/schweiz/globale-erwaermung-wenn-der-fruehling-immer-frueher-kommt?wt_mc_o=srf.share.app.srf-app.unknown) (2021)
 - **The Pudding:** [Following the Science](https://pudding.cool/2021/03/covid-science/) (2021)
+- **darawrapper:** [Years, months, days, and hours — in one chart](https://blog.datawrapper.de/different-time-scales-in-one-chart/?s=03) (2021)
 ## Mapping
 Choropleth, Point maps und allerlei weitere geografische Darstellungsformen
 - **SRF:** [Wo die Schweiz wächst – und wo sie schrumpft](https://www.srf.ch/news/wo-die-schweiz-waechst-und-wo-sie-schrumpft-2) (2015)
