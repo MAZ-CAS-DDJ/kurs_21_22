@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-12-06">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="CH" label="CH" />
+      <node id="GER" label="GER" />
+      <node id="AT" label="AT" />
+      <node id="FR" label="FR" />
+      <node id="IT" label="IT" />
+      <node id="FL" label="FL" />
+    </nodes>
+    <edges>
+      <edge source="CH" target="GER" id="0" />
+      <edge source="CH" target="AT" id="1" />
+      <edge source="CH" target="FR" id="2" />
+      <edge source="CH" target="IT" id="3" />
+      <edge source="CH" target="FL" id="4" />
+      <edge source="GER" target="FR" id="5" />
+      <edge source="GER" target="AT" id="6" />
+      <edge source="AT" target="FL" id="7" />
+      <edge source="AT" target="IT" id="8" />
+    </edges>
+  </graph>
+</gexf>
