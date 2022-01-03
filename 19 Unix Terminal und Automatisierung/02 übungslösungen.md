@@ -27,6 +27,7 @@ Lade das Personenfile des Schweizerischen Nationalfonds herunter. Und kreiere ei
 ## Übung 5
 
 1. wget -r -A "*.pdf" "https://chplusplus.org/"
+2. wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --no-parent https://www.balthasar-glaettli.ch
 
 ## Übung 6
 Erstelle folgende Crontabs:
